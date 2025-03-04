@@ -1,3 +1,5 @@
+![To-Do List Demo](./demo.gif)
+
 # To-Do List 📝
 
 This is a simple To-Do List project developed with Vanilla JavaScript. The goal of this project is to practice and apply important web development concepts, such as DOM manipulation and user events.
