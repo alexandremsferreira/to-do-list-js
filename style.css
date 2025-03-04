@@ -1,0 +1,45 @@
+body {
+    background-color: #121212;
+    color: white;
+}
+.card {
+    background-color: #1e1e1e;
+    color: white;
+}
+.list-group-item {
+    background-color: #2c2c2c;
+    color: white;
+    border-color: #444;
+}
+
+.completed {
+    opacity: 0.5;       
+    text-decoration: line-through;  
+    color: #888;
+}
+
+.form-control {
+    background-color: #2c2c2c;
+    color: white;
+    border-color: #444;
+}
+.form-control::placeholder {
+    color: #bbb;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+.btn-remove {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.btn-remove:hover {
+    color: red;
+}
