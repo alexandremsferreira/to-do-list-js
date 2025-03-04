@@ -58,11 +58,13 @@ function removeTask(taskId, taskItem) {
 }
 
 function toggleTaskCompletion(taskId, taskItem) {
-    const task = data.find(task => task.id === taskId)
-    if (task) {
-        task.completed = !task.completed
-        taskItem.classList.toggle('completed', task.completed)
-    }
+    const task = data.map(task => {
+        if (task.id === taskId) {
+            task.completed = !task.completed
+            taskItem.classList.toggle('completed', task.completed)
+        }
+        return task
+    })
 }
 
 addTaskBtn.addEventListener('click', addTask)
