@@ -1,4 +1,4 @@
-![To-Do List Demo](./demo.gif)
+![To-Do List Demo](./img.png)
 
 # To-Do List 📝
 
